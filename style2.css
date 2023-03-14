@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? família = Anton &family= Dancing+Script & family= Righteous & family= Rubik+Gemstones & family= Sarala & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens.barraco/amanhecer.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #1f1f1d;
+    border-bottom: 0.4px solid #f2f2f2;
+
+}
+
+.logo {
+    opacity: 75%;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+    margin-left: 150px;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+    margin-right: 150px;
+
+}
+
+.botao {
+    font-family: Sarala;
+    color: #05f2db;
+    font-weight: 40;
+    font-size: 18px;
+}
+
+.botao:hover {
+    color: #f2e205;
+    transition: 0.6s;
+}
+
+.tituloh1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: Anton, regular;
+    font-weight: 400;
+    font-size: 80px;
+    color: #010440;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.bio {
+    background-color: #05f2db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #1f1f1d;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+}
+
+.curiosidades {
+    background-color: #05f2db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid #1f1f1d;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+}
+
+.titulosh2 {
+    font-family: Sarala;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #010440;
+    border-bottom: 0.4px solid #1f1f1d;
+}
+
+.coisasdamole {
+    font-family: Sarala;
+    font: 400;
+    font-weight: 100;
+    color: #1f1f1d;
+    margin: 10px;
+}
+
+.rodape {
+    font: italic;
+    text-align: center;
+    border-top: 0.4px solid #f2f2f2;
+    padding: 18px;
+    color: #05f2db;
+    background-color: #1f1f1d;
+}

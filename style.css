@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&family=Rubik+Gemstones&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid #f2f2f2;
+    margin-bottom: 48px;
+}
+
+.cabeçalho {
+    border-bottom: 0.4px solid #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #1f1f1d;
+}
+
+.logo {
+    opacity: 75%;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+    margin-left: 150px;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+    margin-right: 150px;
+
+}
+
+.botao {
+    font-family: Sarala;
+    color: #05f2db;
+    font-weight: 40;
+    font-size: 18px;
+}
+
+.botao:hover {
+    color: #f2e205;
+    transition: 0.6s;
+}
+
+.textos {
+    background-image: url(imagens.barraco/this.is.a.life.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.titulo{
+    font-family: Anton, regular;
+    font-weight: 400;
+    font-size: 90px;
+    color: #010440;
+}
+
+.frase {
+    font-family: Anton, regular;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #010440;
+}
+
+.ingles {
+    font-family: Anton, regular;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #010440;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin-top: 40px;
+}
+
+.item {
+    font-family: Sarala;
+    font: 400;
+    font-weight: 100;
+    color: #05f2db;
+    margin-left: 100px;
+}
+
+.portifolio {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    border-top: 0.4px solid #f2f2f2;
+}
+
+.foto {
+    background-image: url(imagens.barraco/vip.barraco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+}
+
+.foto2 {
+    background-image: url(imagens.barraco/choupana.barraco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+    border-left: 0.4px solid #f2f2f2;
+}
+
+.foto3 {
+    background-image: url(imagens.barraco/galera.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+    border-left: 0.4px solid #f2f2f2;
+}
+
+.portifolio2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    border-top: 0.4px solid #f2f2f2;
+}
+
+.foto4 {
+    background-image: url(imagens.barraco/camarao.pistola.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+}
+
+.foto5 {
+    background-image: url(imagens.barraco/DJ.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+    border-left: 0.4px solid #f2f2f2;
+}
+
+.foto6 {
+    background-image: url(imagens.barraco/caipirinha.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    height: 300px;
+    width: 500px;
+    border-left: 0.4px solid #f2f2f2;
+}
+
+.rodape {
+    font: italic;
+    text-align: center;
+    border-top: 0.4px solid #f2f2f2;
+    padding: 18px;
+    color: #05f2db;
+    background-color: #1f1f1d;
+}
