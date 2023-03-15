@@ -166,10 +166,10 @@ body {
     .bio {
         background-color: #05f2db;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         border-radius: 10px;
-        height: 350px;
-        width: 350px;
+        height: 50px;
+        width: 50px;
     }
 
     .titulosh2 {
