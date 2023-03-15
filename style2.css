@@ -124,10 +124,6 @@ body {
 @media only screen and (max-width: 800px) {
 
     body {
-        font-size: 60%;
-        display: flex;
-        flex-direction: column;
-        background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
     }
@@ -156,6 +152,13 @@ body {
         margin-left: 100px;
     }
 
+    .tituloh1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 40px;
+    }
+
     .apresentacao {
         display: flex;
         flex-direction: column;
@@ -168,12 +171,11 @@ body {
         display: flex;
         flex-direction: row;
         border-radius: 10px;
-        height: 50px;
-        width: 50px;
+        height: 5px;
+        width: 20px;
     }
 
     .titulosh2 {
-        font-family: Sarala;
         font-size: 18px;
         margin-top: 15px;
     }
