@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     border-top: 0.4px solid #f2f2f2;
-    margin-bottom: 48px;
 }
 
 .cabeçalho {
@@ -64,7 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 24px;
+    padding: 10px;
 }
 
 .titulo{
@@ -77,15 +76,13 @@ body {
 .frase {
     font-family: Anton, regular;
     font-size: 30px;
-    margin-top: 30px;
     color: #010440;
 }
 
 .ingles {
     font-family: Anton, regular;
     font-size: 40px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #010440;
 }
 
@@ -93,13 +90,13 @@ body {
     display: flex;
     flex-direction: column;
     padding: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .item {
     font-family: Sarala;
     font: 400;
-    font-weight: 100;
+    font-size: 20px;
     color: #05f2db;
     margin-left: 100px;
 }
@@ -185,14 +182,26 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-    .cabeçalho {
+    .cabecalho {
         display: flex;
         justify-content: space-around;
-        gap: 40px;
     }
 
     .botao {
         font-size: 10px;
+    }
+
+    .logo {
+        opacity: 75%;
+        height: 30px;
+        border-radius: 5px;
+        justify-content: space-around;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+        margin-left: 100px;
+    }
+
+    .menu {
+        margin-left: 45px;
     }
 
     body {
@@ -209,8 +218,13 @@ body {
         font-size: 15px;
     }
 
-    p {
+    .ingles {
         font-size: 20px;
+    }
+
+    .item {
+        font-size: 10px;
+        margin-left: 20px;
     }
 
     .portifolio {
