@@ -92,7 +92,7 @@ body {
     gap: 25px;
     border: 1px solid #1f1f1d;
     border-radius: 10px;
-    height: 350px;
+    height: 250px;
     width: 350px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
 }
@@ -131,8 +131,6 @@ body {
     .cabecalho {
         display: flex;
         justify-content: space-around;
-        width: 500px;
-        height: auto;
     }
 
     .menu {
@@ -169,10 +167,7 @@ body {
     .bio {
         background-color: #05f2db;
         display: flex;
-        flex-direction: row;
-        border-radius: 10px;
-        width: 75%;
-        height: auto;
+        flex-direction: column;
     }
 
     .titulosh2 {
@@ -188,7 +183,5 @@ body {
     .rodape {
         text-align: center;
         padding: 10px;
-        width: 100%;
-        height: auto;
     }
 }
