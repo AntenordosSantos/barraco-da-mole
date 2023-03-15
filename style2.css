@@ -123,11 +123,24 @@ body {
 }
 @media only screen and (max-width: 800px) {
 
+    body {
+        font-size: 60%;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
     .cabecalho {
         display: flex;
         justify-content: space-around;
         width: 500px;
         height: auto;
+    }
+
+    .menu {
+        margin-left: 45px;
     }
 
     .botao {
@@ -143,17 +156,36 @@ body {
         margin-left: 100px;
     }
 
-    .menu {
-        margin-left: 45px;
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .bio {
+        background-color: #05f2db;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .titulosh2 {
+        font-family: Sarala;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .coisasdamole {
+        font-size: 10;
+        margin: 5px;
     }
 
     .rodape {
-        font: italic;
         text-align: center;
-        border-top: 0.4px solid #f2f2f2;
         padding: 10px;
-        color: #05f2db;
-        background-color: #1f1f1d;
         width: 100%;
         height: auto;
     }
