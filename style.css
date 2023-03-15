@@ -185,6 +185,8 @@ body {
     .cabecalho {
         display: flex;
         justify-content: space-around;
+        width: 500px;
+        height: auto;
     }
 
     .botao {
@@ -208,7 +210,11 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
+    }
+
+    .principal {
         width: 500px;
+        height: auto;
     }
 
     .titulo {
@@ -241,4 +247,16 @@ body {
         width: 100%;
         height: auto;
     }
+
+    .rodape {
+        font: italic;
+        text-align: center;
+        border-top: 0.4px solid #f2f2f2;
+        padding: 10px;
+        color: #05f2db;
+        background-color: #1f1f1d;
+        width: 100%;
+        height: auto;
+    }
+    
   }
