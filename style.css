@@ -185,8 +185,8 @@ body {
     .cabecalho {
         display: flex;
         justify-content: space-around;
-        width: 500px;
-        height: auto;
+        width: auto;
+        height: 50px;
     }
 
     .botao {
@@ -233,10 +233,41 @@ body {
         display: flex;
         flex-direction: column;
     }
+    
+    .foto {
+        height: 400px;
+        width: auto;
+    }
+
+    .foto2 {
+        height: 400px;
+        width: auto;
+    }
+
+    .foto3 {
+        height: 400px;
+        width: auto;
+    }
+
+    .foto4 {
+        height: 400px;
+        width: auto;
+    }
+
+    .foto5 {
+        height: 400px;
+        width: auto;
+    }
+
+    .foto6 {
+        height: 400px;
+        width: auto;
+    }
 
     .portifolio2 {
         display: flex;
         flex-direction: column;
+
     }
 
     .rodape {
@@ -246,6 +277,8 @@ body {
         padding: 10px;
         color: #05f2db;
         background-color: #1f1f1d;
+        height: 50px;
+        width: auto;
     }
     
   }
